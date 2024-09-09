@@ -4,52 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alice CV</title>
+    <!--Länk till CSS-fil-->
     <link rel="stylesheet" href="style.CSS">
     <style>
         * {
             margin: 0;
         }
     </style>
+    <!--Det här är en länk till en stylesheet för att få in ikoner-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    <!--Det här är headern och rubriken på sidan-->
     <header>
-        <h1>Alice Fearn</h1>
+        <h1> CV. Alice Fearn</h1>
     </header>
-    <div class="middle">
-        <h2 class="om-mig">Om Mig</h2>
-    <p class="text1">Hej!<br>Jag heter Alice Fearn och studerar för närvarande till javautvecklare på Värnamo Campus. Tidigare 
-        har jag arbetat med fastighetsskötsel, där jag ofta ställdes inför olika utmaningar. 
-        Det jag uppskattade mest i den rollen var att lösa olika problem som uppstod. 
-        <br> 
-        <br>
-        Jag har alltid haft en stark vilja av att utmana mig själv och att ständigt lära mig nya saker, både 
-        inom yrkeslivet och på min fritid. Programmering har blivit ett stort intresse för mig, då det kombinerar 
-        kreativitet och problemlösning vilket jag trivs bra med.
-        <br>
-        <br>
-        På min fritid ägnar jag mig åt flera olika intressen. Samla på böcker, spela olika spel, kolla på film och  
-        programmering är de jag ägnar mest tid åt. Genom att kombinera mina intressen får jag utlopp för både min nyfikenhet 
-        och kreativitet.  
-    </p>
-    </div>
 
-    <img src="" alt="">
-    
+    <!--Här är texten och bilden i två olika kolumner på sidan-->
+    <table style="width:100%">
+    <tr>
+        <th style="width :50%">
+            <div class="middle">
+                <!--Rubriken till textrutan-->
+                <h2 class="om-mig">Om Mig</h2>
+                <!--Texten i textrutan-->
+                <p class="text1">Hej!<br>Jag heter Alice Fearn och studerar för närvarande till javautvecklare på Värnamo Campus. Tidigare 
+                 har jag arbetat med fastighetsskötsel. Det jag uppskattade mest i den rollen var att lösa olika problem som uppstod. 
+                <br> 
+                <br>
+                 Jag har alltid haft en stark vilja av att utmana mig själv och att ständigt lära mig nya saker, både 
+                inom yrkeslivet och på min fritid. Programmering har blivit ett stort intresse för mig, då det kombinerar 
+                kreativitet och problemlösning vilket jag trivs bra med.
+                <br>
+                <br>
+                 På min fritid ägnar jag mig åt flera olika intressen. Samla på böcker, spela olika spel, kolla på film och  
+                programmering är de jag ägnar mest tid åt. Genom att kombinera mina intressen får jag utlopp för både min nyfikenhet 
+                och kreativitet.  
+                </p>
+            </div>
+        </th>
+        <th style="width :50%">
+            <!--Bilden-->
+            <div class="bild">
+                <img src="jag.jpg" alt="" width="182" height="315">
+            </div>    
+        </th>
+    </tr>
+</table>
+    <!--Här börjar footern-->
     <div class="kontakt">
-    <footer>
-        <h3>Kontakta mig</h3>
-        <div class="mail">
-            <p>feal24te@student.ju.se</p>
-        </div>
-        <br> 
-       <div class="icon">
-        <a href="https://github.com/feal24" target="_blank" class="github-icon">
-            <i class="fab fa-github"></i>
-          </a>
-       </div>
+        <footer>
+            <!--En rubrik i footern-->
+            <h3>Kontakta mig</h3>
+            <div class="mail">
+                <p>feal24te@student.ju.se</p>
+            </div>
+            <br> 
+            <!--En ikon och länk till GitHub-->
+            <div class="icon">
+                <a href="https://github.com/feal24" target="_blank" class="github-icon">
+                <i class="fab fa-github"></i>
+                </a>
+            </div>
         
-    </footer>
+         </footer>
     </div>
     
 </body>
